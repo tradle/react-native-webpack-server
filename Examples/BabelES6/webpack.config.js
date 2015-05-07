@@ -20,6 +20,7 @@ var config = {
   module: {
     loaders: [
       {test: /\.js$/, exclude: /node_modules/, loaders: ['babel?stage=0&blacklist=validation.react']},
+      {test: /\.json$/, loader: 'json'}
     ],
   },
 
